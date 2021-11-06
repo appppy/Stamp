@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/menu_untrash"
+        android:icon="@drawable/ic_restore_white_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:title="@string/restore"/>
+    <item
+        android:id="@+id/menu_empty"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        android:title="@string/empty"/>
+</menu>

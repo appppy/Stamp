@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/menu_sort"
+        android:orderInCategory="102"
+        android:icon="@drawable/ic_sort_white_24dp"
+        app:showAsAction="ifRoom"
+        android:title="@string/sort">
+        <menu>
+            <item
+                android:id="@+id/menu_by_date_created"
+                android:orderInCategory="201"
+                android:title="@string/by_date_created"/>
+            <item
+                android:id="@+id/menu_swap_vert"
+                android:orderInCategory="203"
+                android:title="@string/swap_vert"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_selected_all"
+        android:orderInCategory="104"
+        android:icon="@drawable/ic_select_all_white_24dp"
+        app:showAsAction="never"
+        android:title="@string/select_all"/>
+</menu>

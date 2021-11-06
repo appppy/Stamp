@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Stamp</string>
+
+    <string name="trans_name" translatable="false">list_to_detail</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="loading">loading…</string>
+
+    <!-- navigation -->
+    <string name="all_stamp">All Stamp</string>
+    <string name="red_stamp">Red Stamp</string>
+    <string name="blue_stamp">Blue Stamp</string>
+    <string name="yellow_stamp">Yellow Stamp</string>
+    <string name="archive">Archive</string>
+    <string name="trash">Trash</string>
+
+    <!-- menu -->
+    <string name="delete">Delete</string>
+    <string name="unarchive">UnArchive</string>
+    <string name="restore">Restore</string>
+    <string name="empty">Empty Trash</string>
+    <string name="select_all">Select all items</string>
+    <string name="share">Share</string>
+    <string name="sort">Sort by</string>
+    <string name="swap_vert">Revers</string>
+    <string name="by_name">Name</string>
+    <string name="by_date_created">Last created</string>
+    <string name="select_color">Select Color</string>
+
+    <!-- color -->
+    <string name="white">No color</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="yellow">Yellow</string>
+
+    <!-- content -->
+    <string name="created_date">Created Date</string>
+    <string name="modified_date">Modified Date</string>
+    <string name="no_description">No Description</string>
+
+    <!-- Toast -->
+    <string name="undo">UNDO</string>
+    <string name="created_item">Stamp created.</string>
+    <string name="modified_item">Stamp modified.</string>
+    <string name="moved_to_archive_item">Stamp archived.</string>
+    <string name="moved_to_archive_some_items">%d stamp archived.</string>
+    <string name="moved_to_trash_item">Stamp moved to Trash.</string>
+    <string name="moved_to_trash_some_items">%d stamp moved to Trash.</string>
+    <string name="empty_trash_is_done">Empty trash is done.</string>
+    <string name="undo_item">Undo.</string>
+    <string name="unarchived_item">Stamp unarchived.</string>
+    <string name="unarchived_some_items">%d stamp unarchived.</string>
+    <string name="restored_item">Stamp restored.</string>
+    <string name="restored_some_items">%d stamp restored.</string>
+
+</resources>

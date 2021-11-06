@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/menu_color"
+        android:icon="@drawable/ic_group_work_white_24dp"
+        android:orderInCategory="103"
+        app:showAsAction="ifRoom"
+        android:title="@string/select_color">
+        <menu>
+            <item
+                android:id="@+id/menu_white"
+                android:icon="@drawable/ic_lens_grey_300_24dp"
+                android:orderInCategory="200"
+                android:title="@string/white"/>
+            <item
+                android:id="@+id/menu_red"
+                android:icon="@drawable/ic_lens_red_24dp"
+                android:orderInCategory="201"
+                android:title="@string/red"/>
+            <item
+                android:id="@+id/menu_blue"
+                android:icon="@drawable/ic_lens_blue_24dp"
+                android:orderInCategory="206"
+                android:title="@string/blue"/>
+            <item
+                android:id="@+id/menu_yellow"
+                android:icon="@drawable/ic_lens_yellow_24dp"
+                android:orderInCategory="210"
+                android:title="@string/yellow"/>
+        </menu>
+    </item>
+</menu>

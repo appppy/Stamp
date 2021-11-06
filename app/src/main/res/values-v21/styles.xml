@@ -1,0 +1,92 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Splash application theme. -->
+    <style name="AppTheme.Splash">
+        <item name="android:windowBackground">@drawable/splash</item>
+        <item name="colorAccent">@color/blue_grey_600</item>
+    </style>
+
+    <style name="AppTheme.Archive">
+        <item name="colorPrimary">@color/blue_grey_600</item>
+        <item name="colorPrimaryDark">@color/blue_grey_800</item>
+        <item name="colorAccent">@color/light_blue_600</item>
+    </style>
+    <style name="AppTheme.Trash">
+        <item name="colorPrimary">@color/grey_600</item>
+        <item name="colorPrimaryDark">@color/grey_800</item>
+        <item name="colorAccent">@color/grey_600</item>
+    </style>
+
+    <!-- Overlay theme. -->
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="AppTheme.DrawerOverlay" parent="ThemeOverlay.AppCompat.Dark"/>
+
+    <!-- Theme. -->
+    <style name="AppTheme.Red">
+        <item name="colorAccent">@color/red_600</item>
+    </style>
+    <style name="AppTheme.Pink">
+        <item name="colorAccent">@color/pink_600</item>
+    </style>
+    <style name="AppTheme.Purple">
+        <item name="colorAccent">@color/purple_600</item>
+    </style>
+    <style name="AppTheme.DeepPurple">
+        <item name="colorAccent">@color/deep_purple_600</item>
+    </style>
+    <style name="AppTheme.Indigo">
+        <item name="colorAccent">@color/indigo_600</item>
+    </style>
+    <style name="AppTheme.Blue">
+        <item name="colorAccent">@color/blue_600</item>
+    </style>
+    <style name="AppTheme.LightBlue">
+        <item name="colorAccent">@color/light_blue_600</item>
+    </style>
+    <style name="AppTheme.Cyan">
+        <item name="colorAccent">@color/cyan_600</item>
+    </style>
+    <style name="AppTheme.Teal">
+        <item name="colorAccent">@color/teal_600</item>
+    </style>
+    <style name="AppTheme.Green">
+        <item name="colorAccent">@color/green_600</item>
+    </style>
+    <style name="AppTheme.LightGreen">
+        <item name="colorAccent">@color/light_green_600</item>
+    </style>
+    <style name="AppTheme.Lime">
+        <item name="colorAccent">@color/lime_600</item>
+    </style>
+    <style name="AppTheme.Yellow">
+        <item name="colorAccent">@color/yellow_600</item>
+    </style>
+    <style name="AppTheme.Amber">
+        <item name="colorAccent">@color/amber_600</item>
+    </style>
+    <style name="AppTheme.Orange">
+        <item name="colorAccent">@color/orange_600</item>
+    </style>
+    <style name="AppTheme.DeepOrange">
+        <item name="colorAccent">@color/deep_orange_600</item>
+    </style>
+    <style name="AppTheme.Brown">
+        <item name="colorAccent">@color/brown_600</item>
+    </style>
+    <style name="AppTheme.BlueGrey">
+        <item name="colorAccent">@color/blue_grey_600</item>
+    </style>
+    <style name="AppTheme.Grey">
+        <item name="colorAccent">@color/grey_600</item>
+    </style>
+
+</resources>
